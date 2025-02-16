@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL:"http://localhost:8000"
+  baseURL:"https://quick-notes-backend-55yo.onrender.com"
 })
 
 axiosInstance.interceptors.request.use(
